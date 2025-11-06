@@ -1,0 +1,4 @@
+# For now no external dependencies
+# Later we might add pandas, matplotlib, or numpy for analysis
+
+pytest == 8.4.2

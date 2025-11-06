@@ -1,0 +1,2 @@
+This is a Blackjack Simulation machine, which gives winning, losing and pushing chances of the game Blackjack by using different strategies.
+This program is made by Mustafa and Yari in order to use in our thesis.
