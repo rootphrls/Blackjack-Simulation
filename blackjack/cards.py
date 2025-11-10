@@ -16,7 +16,7 @@ class Deck:
         return [rank for rank in ranks for suit in suits] * self.num_decks
 
     def deal_card(self):
-        if len(self.cards) == 0:
+        if not self.cards:
             self.cards = self._create_deck()
             random.shuffle(self.cards)
         return self.cards.pop()
